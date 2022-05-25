@@ -16,7 +16,7 @@ namespace eTickets.Models
         public double Price { get; set; }
 
         [AllowNull]
-        public string ImageUrl { get; set; }
+        public string ImageURL { get; set; }
 
         public DateTime StartDate { get; set; }
 
