@@ -1,5 +1,8 @@
 var builder = WebApplication.CreateBuilder(args);
 
+// Add Entity Framework
+builder.Services.AddDbContext<eTickets.Data.AppDBContext>();
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
