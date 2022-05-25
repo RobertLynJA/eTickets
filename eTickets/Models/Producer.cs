@@ -13,5 +13,9 @@
 
         [AllowNull]
         public string Bio { get; set; }
+
+        //RelationShips
+        [AllowNull]
+        public List<Movie> Movies { get; set; }
     }
 }
