@@ -1,7 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Diagnostics.CodeAnalysis;
-
-namespace eTickets.Models
+﻿namespace eTickets.Models
 {
     public class Actor
     {
